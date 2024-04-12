@@ -3,3 +3,167 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height: 125px;
+    background-color: rgba(0,149,136,255);
+}
+
+main{
+    width: 100%;
+    height: 760px;
+    position: inherit;
+    top: -75px;   
+}
+
+/* CONTAINER */
+.container{
+    width: 1686px;
+    height: 800px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+/* ROW */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* COL */
+.col-33{
+    width: calc(100% / 3.3);
+    height: 798px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+/* */
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+/* AVATAR */
+.avatar{
+    border-radius: 500px;
+    max-width: 50px;
+}
+
+/* HEADER */
+.header-col-33{
+    background-color: rgba(234, 234, 234, 255);
+    width: 100%;
+    height: 64px;
+    display: flex;
+    padding: 6px 5px;
+}
+
+.header-col-50{
+    width: calc(100% / 2);
+    height: 52px;
+}
+
+.symbol{
+    font-size: 25px;
+    padding: 13px 10px;
+    color: rgba(177,177,177,255);
+}
+
+
+/* MAIN */
+.main-top-col-33{
+    background-color: white;
+    width: 100%;
+    border: 1px solid black;
+    height: 130px;
+}
+
+.main-top-col-50{
+    background-color: rgba(143,218,252,255);
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+
+.circle{
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 10px;
+    width: 55px;
+    margin: 12px;
+}
+
+.notifiche{
+    height: 35px;
+    font-size: 22px;
+    margin: 14px 0px;
+}
+
+.main-bottom-col-50{
+    width: 100%;
+    height: 40%;
+    padding: 10px 10px;
+}
+
+.button{
+    font-size: 20px;
+    border-radius: 20%;
+}
+
+.search{
+    width: 90%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.main-bottom-col-33{
+    background-color: white;
+    width: 100%;
+    border: 1px solid black;
+    height: 603px;
+    overflow: scroll;
+}
+
+.main-col-50{
+    width: 489px;
+    height: 75px;
+    padding: 10px 10px;
+    display: flex;
+}
+
+.information-avatar{
+    width: 210px;
+    margin-left: 10px;
+    padding: 5px 5px;
+}
+
+.name{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.comment{
+    padding-top: 3px;
+    font-family: arial;
+}
+
+.orario{
+    width: 200px;
+    text-align: right;
+    padding-top: 15px;
+    color: rgba(193,193,193,255);
+}
+
