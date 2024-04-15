@@ -14,9 +14,10 @@ header{
     background-color: rgba(0,149,136,255);
 }
 
+
 main{
     width: 100%;
-    height: 760px;
+    height: 800px;
     position: inherit;
     top: -75px;   
 }
@@ -25,8 +26,8 @@ main{
 .container{
     width: 1686px;
     height: 800px;
-    border: 1px solid black;
     margin: 0 auto;
+    border: 1px solid gray;
 }
 
 /* ROW */
@@ -41,6 +42,10 @@ main{
     height: 798px;
     background-color: white;
     border: 1px solid gray;
+}
+
+.col-70{
+    width: 1173px;
 }
 
 /* */
@@ -87,7 +92,6 @@ main{
 .main-top-col-33{
     background-color: white;
     width: 100%;
-    border: 1px solid black;
     height: 130px;
 }
 
@@ -121,20 +125,21 @@ main{
 .button{
     font-size: 20px;
     border-radius: 20%;
+    border: none;
 }
 
 .search{
     width: 90%;
     font-size: 20px;
     border-radius: 5px;
+    border: none;
 }
 
 .main-bottom-col-33{
     background-color: white;
     width: 100%;
-    border: 1px solid black;
     height: 603px;
-    overflow: scroll;
+    overflow: overlay;
 }
 
 .main-col-50{
@@ -167,3 +172,102 @@ main{
     color: rgba(193,193,193,255);
 }
 
+/* CHAT */
+.header-col-70 {
+    background-color: rgba(234, 234, 234, 255);
+    width: 1174px;
+    height: 64px;
+    display: flex;
+    padding: 6px 10px;
+}
+
+.header-col-50-right{
+    width: 50px;
+    height: 52px;   
+}
+
+.information-avatar-2{
+    width: 500px;
+    margin-left: 10px;
+    padding: 5px 5px;
+}
+
+.ultimo-accesso{
+    font-family: arial;
+    color: rgba(193,193,193,255);
+}
+
+.main-right{
+    background-image: url(img/mine.jpg);
+    width: 1174px;
+    height: 674px;
+    overflow: overlay;
+}
+
+.col-text{
+    width: 100%;
+    display: flex;
+}
+
+.text-io{
+    background-color: rgba(212, 249, 187, 255);
+    margin-left: 580px;
+    margin-right: 110px;
+    margin-top: 40px;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+
+.fa-angle-down{
+    color: rgba(193, 193, 193, 255);
+    padding-left: 10px;
+}
+
+.orario-messaggio{
+    padding-top: 70px;
+    color: rgba(193, 193, 193, 255);
+    font-size: 13px;
+}
+
+.text-tu{
+    background-color: white;
+    margin-left: 110px;
+    margin-right: 580px;
+    margin-top: 10px;
+    padding: 15px 15px;
+    border-radius: 15px;
+}
+
+.chatbox{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: #f0f0f0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-face-smile{
+    cursor: pointer;
+    font-size: 1.8em;
+    color: #51585c;
+}
+
+.barra-messaggi{
+    position: relative;
+    width: 90%;
+    margin: 0 20px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1em;
+}
+
+.fa-microphone{
+    cursor: pointer;
+    font-size: 1.8em;
+    color: #51585c;
+}
